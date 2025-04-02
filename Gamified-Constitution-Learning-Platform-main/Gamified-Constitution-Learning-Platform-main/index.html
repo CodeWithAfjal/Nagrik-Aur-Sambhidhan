@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images.jpg" type="image/x-icon">
+    <title>Welcome - Gamified Constitution Learning Platform</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f5f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: #333;
+        }
+
+        .container {
+            background: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 100%;
+            max-width: 600px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #2C3E50;
+            margin-bottom: 30px;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            color: #7f8c8d;
+        }
+
+        button {
+            padding: 15px 30px;
+            background-color:  #3949ab;
+            border: none;
+            color: white;
+            font-size: 1.2em;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #3498db;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 1em;
+            color: #95a5a6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Gamified Constitution Learning Platform</h1>
+        <p>Get ready to explore the Indian Constitution through an engaging and interactive learning experience.</p>
+        <button id="enterBtn">Let's Go!</button>
+        <div class="footer">
+            <p>&copy; 2025 Gamified Constitution Learning Platform. All Rights Reserved.</p>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('enterBtn').addEventListener('click', function() {
+            window.location.href = 'login.html'; // Change to your main page
+        });
+    </script>
+</body>
+</html>
